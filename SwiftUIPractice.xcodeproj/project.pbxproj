@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		BF61D09C2C7EE48F001448B0 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D09B2C7EE48F001448B0 /* SwiftUIPracticeApp.swift */; };
-		BF61D09E2C7EE48F001448B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D09D2C7EE48F001448B0 /* ContentView.swift */; };
+		BF61D09E2C7EE48F001448B0 /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D09D2C7EE48F001448B0 /* NetflixView.swift */; };
 		BF61D0A02C7EE491001448B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF61D09F2C7EE491001448B0 /* Assets.xcassets */; };
 		BF61D0A32C7EE491001448B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF61D0A22C7EE491001448B0 /* Preview Assets.xcassets */; };
+		BF61D0AB2C7EE56E001448B0 /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D0AA2C7EE56E001448B0 /* ButtonWrapper.swift */; };
+		BF61D0AD2C7EE6BA001448B0 /* ForegroundWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D0AC2C7EE6BA001448B0 /* ForegroundWrapper.swift */; };
+		BF61D0AF2C7EE6C6001448B0 /* BackgroundWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D0AE2C7EE6C6001448B0 /* BackgroundWrapper.swift */; };
+		BF61D0B22C7EE98A001448B0 /* RadiusGrayBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61D0B12C7EE98A001448B0 /* RadiusGrayBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF61D0982C7EE48F001448B0 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF61D09B2C7EE48F001448B0 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
-		BF61D09D2C7EE48F001448B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF61D09D2C7EE48F001448B0 /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		BF61D09F2C7EE491001448B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF61D0A22C7EE491001448B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF61D0AA2C7EE56E001448B0 /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
+		BF61D0AC2C7EE6BA001448B0 /* ForegroundWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundWrapper.swift; sourceTree = "<group>"; };
+		BF61D0AE2C7EE6C6001448B0 /* BackgroundWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundWrapper.swift; sourceTree = "<group>"; };
+		BF61D0B12C7EE98A001448B0 /* RadiusGrayBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusGrayBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		BF61D09A2C7EE48F001448B0 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				BF61D0B02C7EE97B001448B0 /* CustomModifier */,
+				BF61D0A92C7EE554001448B0 /* Wrapper */,
 				BF61D09B2C7EE48F001448B0 /* SwiftUIPracticeApp.swift */,
-				BF61D09D2C7EE48F001448B0 /* ContentView.swift */,
+				BF61D09D2C7EE48F001448B0 /* NetflixView.swift */,
 				BF61D09F2C7EE491001448B0 /* Assets.xcassets */,
 				BF61D0A12C7EE491001448B0 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				BF61D0A22C7EE491001448B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF61D0A92C7EE554001448B0 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BF61D0AA2C7EE56E001448B0 /* ButtonWrapper.swift */,
+				BF61D0AC2C7EE6BA001448B0 /* ForegroundWrapper.swift */,
+				BF61D0AE2C7EE6C6001448B0 /* BackgroundWrapper.swift */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		BF61D0B02C7EE97B001448B0 /* CustomModifier */ = {
+			isa = PBXGroup;
+			children = (
+				BF61D0B12C7EE98A001448B0 /* RadiusGrayBackground.swift */,
+			);
+			path = CustomModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF61D09E2C7EE48F001448B0 /* ContentView.swift in Sources */,
+				BF61D0AB2C7EE56E001448B0 /* ButtonWrapper.swift in Sources */,
+				BF61D09E2C7EE48F001448B0 /* NetflixView.swift in Sources */,
+				BF61D0AD2C7EE6BA001448B0 /* ForegroundWrapper.swift in Sources */,
 				BF61D09C2C7EE48F001448B0 /* SwiftUIPracticeApp.swift in Sources */,
+				BF61D0B22C7EE98A001448B0 /* RadiusGrayBackground.swift in Sources */,
+				BF61D0AF2C7EE6C6001448B0 /* BackgroundWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
